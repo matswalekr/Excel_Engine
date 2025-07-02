@@ -9,7 +9,7 @@ setup(
         "pycel",
         "openpyxl"
     ],
-    description="A Python module to interact with wrds to query financial data",
+    description="A Python module to interact with Excel.",
     author="Mats Walker",
     author_email="matswalker2@gmail.com",
     classifiers=[
