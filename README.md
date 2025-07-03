@@ -15,8 +15,10 @@ An excel file may be opened in any of the following modes:
 - "m": **modify-mode**, Changes may be made to the excel sheet, but these can't be saved. Use this mode to run simulations or model using different inputs.
 - "w": **write-mode**, Changes may be made to the Excel and these can be saved in different locations.
 
+
 Use the Engine as follows:
-with open_excel(path = r'some_path.xlsx", mode = "w") as xls: 
+
+*with open_excel(path = r'some_path.xlsx", mode = "w") as xls:*
 
 ## Dependencies
 This file extends different libraries.
